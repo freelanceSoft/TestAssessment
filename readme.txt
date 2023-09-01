@@ -1,4 +1,4 @@
-############### capteta test ###############
+############### carpeta test ###############
 
 #corresponde a los ejercicios 3, 4 y 5
 
@@ -9,7 +9,7 @@
 	4.- Ejecutar en el orden que se encuentran las operaciones de la coleccion TestAPI.json para probar las APIs en cuestion
 	
 
-############### capteta test2 ###############
+############### carpeta test2 ###############
 
 #corresponde al ejercicio 2
 
