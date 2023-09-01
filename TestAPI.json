@@ -1,0 +1,261 @@
+{
+	"info": {
+		"_postman_id": "4d9fd2da-0067-4b17-acdb-bc86b785232a",
+		"name": "TestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13646332",
+		"_collection_link": "https://digital-challengers.postman.co/workspace/test~c540f510-b156-4e4a-9454-e8946736220e/collection/13646332-4d9fd2da-0067-4b17-acdb-bc86b785232a?action=share&source=collection_link&creator=13646332"
+	},
+	"item": [
+		{
+			"name": "ADD_BOOK_1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123451,\r\n        \"title\": \"Pedro Paramo\",\r\n        \"author\": \"Juan\",\r\n        \"publicationDate\": \"2022-04-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD_BOOK_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123452,\r\n        \"title\": \"El llano en llamas\",\r\n        \"author\": \"Juan\",\r\n        \"publicationDate\": \"2022-05-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD_BOOK_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123453,\r\n        \"title\": \"Cien años de soledad\",\r\n        \"author\": \"Gabriel\",\r\n        \"publicationDate\": \"2022-06-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD_BOOK_4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123454,\r\n        \"title\": \"Don Quijote de la Mancha\",\r\n        \"author\": \"Miguel\",\r\n        \"publicationDate\": \"2022-07-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD_BOOK_5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123455,\r\n        \"title\": \"Los cinco soles de México\",\r\n        \"author\": \"Carlos\",\r\n        \"publicationDate\": \"2022-08-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADD_UNPUBLISHED_BOOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"isbn\": 123456,\r\n        \"title\": \"El conde de Montecristo\",\r\n        \"author\": \"Alejandro\",\r\n        \"publicationDate\": \"2023-09-02\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_ALL_BOOKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/book",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_BOOKS_BY_AUTHOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/book/author/Juan",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book",
+						"author",
+						"Juan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_BOOK_BY_ISBN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/book/isbn/123453",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book",
+						"isbn",
+						"123453"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_BOOKS_BY_AFTER_DATE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/book/after-date/2022-08-02",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"book",
+						"after-date",
+						"2022-08-02"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
